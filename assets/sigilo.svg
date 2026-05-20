@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Chef Janet · Paellas y Más · Sigilo identitario">
+  <title>Chef Janet · Paellas y Más</title>
+  <desc>Sigilo monocromo: paellera con cuchara estilizada y vapor · Chef Janet</desc>
+
+  <!-- Paellera / wok - ellipse body -->
+  <ellipse cx="60" cy="74" rx="42" ry="14" stroke="#D4A437" stroke-width="2.5" fill="none"/>
+  <!-- Paellera depth / bowl -->
+  <path d="M18 74 Q18 96 60 100 Q102 96 102 74" stroke="#D4A437" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Handles -->
+  <line x1="18" y1="74" x2="8" y2="70" stroke="#D4A437" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="102" y1="74" x2="112" y2="70" stroke="#D4A437" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Handle ends -->
+  <circle cx="8" cy="70" r="2.5" fill="#D4A437"/>
+  <circle cx="112" cy="70" r="2.5" fill="#D4A437"/>
+
+  <!-- Ladle / cuchara - bowl -->
+  <circle cx="60" cy="44" r="11" stroke="#D4A437" stroke-width="2" fill="none"/>
+  <!-- Ladle handle -->
+  <line x1="60" y1="55" x2="60" y2="72" stroke="#D4A437" stroke-width="2" stroke-linecap="round"/>
+  <!-- Ladle handle curve detail -->
+  <path d="M60 68 Q64 70 66 74" stroke="#D4A437" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.6"/>
+
+  <!-- Steam wisps - 3 curling vapors -->
+  <path d="M44 38 Q40 30 44 22 Q48 14 44 8" stroke="#D4A437" stroke-width="1.8" stroke-linecap="round" fill="none" opacity="0.7"/>
+  <path d="M60 35 Q56 26 60 18 Q64 10 60 4" stroke="#D4A437" stroke-width="1.8" stroke-linecap="round" fill="none" opacity="0.7"/>
+  <path d="M76 38 Q80 30 76 22 Q72 14 76 8" stroke="#D4A437" stroke-width="1.8" stroke-linecap="round" fill="none" opacity="0.7"/>
+
+  <!-- Decorative grain dots inside paellera (arroz) -->
+  <circle cx="45" cy="80" r="1.5" fill="#D4A437" opacity="0.5"/>
+  <circle cx="55" cy="83" r="1.5" fill="#D4A437" opacity="0.5"/>
+  <circle cx="65" cy="83" r="1.5" fill="#D4A437" opacity="0.5"/>
+  <circle cx="75" cy="80" r="1.5" fill="#D4A437" opacity="0.5"/>
+  <circle cx="50" cy="87" r="1.5" fill="#D4A437" opacity="0.4"/>
+  <circle cx="70" cy="87" r="1.5" fill="#D4A437" opacity="0.4"/>
+  <circle cx="60" cy="90" r="1.5" fill="#D4A437" opacity="0.4"/>
+</svg>
