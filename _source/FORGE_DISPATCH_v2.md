@@ -22,34 +22,32 @@ predecessor: FORGE_DISPATCH_v1.md (Manus task YNtejiXeWsG94gAYvsoCjF · QA PASS 
 
 ---
 
-## §0bis · ENRIQUECIMIENTO POÉTICO SOBERANO 2026-05-20 ~3:35 PM AST (obligatorio · craft v2)
+## §0bis · INSPIRACIÓN/VIBRA SOBERANO 2026-05-20 ~3:35 PM AST (para tu craft · NO copy literal)
 
-Cita Soberano verbatim adicional sobre la experiencia inmersiva:
+Cita Soberano verbatim sobre la EXPERIENCIA INMERSIVA — **es vibra/inspiración para tu craft visual y de motion · NO frases para copiar literal al sitio**:
 
 > *"añádele destellos de colores · recuerda que es arte culinaria · desciende del arte · frescura · calidad · sabor · vapor de señal que está listo · caliente y al pie de tu deleite"*
 
-**5 elementos canon que el sitio v2 DEBE encarnar:**
+**🔴 RESTRICCIÓN CRÍTICA · OBLIGATORIA:** la VOZ del sitio = Chef Janet (extraída de sus alts IG · YouTube titles · IG comments · captions reales · frase signature "Esto no es solo una Paella"). La VIBRA del Soberano abajo es para inspirar el CRAFT (motion · color · sensación) pero **NO debe aparecer como copy literal del sitio**. Doctrina raíz FORGE: "el COMO es nuestro · NO se adapta al cliente · al contrario garantiza la experiencia personalizada del cliente con SU voz".
 
-1. **Destellos de colores** — visual sparkles/shimmer/glow accents en momentos clave (cursor hover paellas · transición de capítulos · al cargar imagen macro de mariscos · al revelar precio). NO confeti de plataforma · sí destellos editoriales culinarios (color flare dorado azafrán + rojo paprika · 0.4-0.8s · sutil · una vez). Inspiración: chispa de aceite cayendo en sartén caliente · brillo de azafrán mojado.
+**5 elementos craft que invocan la vibra (manifestación visual/motion · NO copy literal):**
 
-2. **Arte culinaria desciende del arte** — positioning editorial: el sitio se siente más cerca de una galería de arte gastronómico que de catering corporativo. Espacio en blanco editorial · imagen como protagonista · texto que respeta la imagen · NO densidad comercial. Referencia mental: Noma journal · Mugaritz book · libros de cocina autoral de chefs 3-estrellas.
+1. **Destellos de colores** — visual sparkles/shimmer/glow accents en momentos clave (cursor hover paellas · transición de capítulos · al cargar imagen macro de mariscos · al revelar precio). NO confeti de plataforma · sí destellos editoriales culinarios (color flare dorado azafrán + rojo paprika · 0.4-0.8s · sutil · una vez). Inspiración mental: chispa de aceite cayendo en sartén caliente · brillo de azafrán mojado. **Visual · NO copy.**
 
-3. **Frescura · calidad · sabor** — 3 palabras clave que deben aparecer COMO ANCLAS visuales/textuales en el sitio · NO listadas juntas en lista de bullets · sí incrustadas en copy editorial:
-   - *Frescura*: hablar del mariscos del día · "mariscos seleccionados esa misma mañana" · ingrediente vivo
-   - *Calidad*: hablar del estándar Chef Janet · "20 años eligiendo el azafrán correcto" · curaduría
-   - *Sabor*: hablar de memoria · "el sabor que cierra el evento" · "lo que se queda con la gente"
+2. **Arte culinaria desciende del arte** — positioning editorial: el sitio se siente más cerca de una galería de arte gastronómico que de catering corporativo. Espacio en blanco editorial · imagen como protagonista · texto que respeta la imagen · NO densidad comercial. Referencia mental: Noma journal · Mugaritz book · libros de cocina autoral de chefs 3-estrellas. **Estructura · NO copy.**
 
-4. **Vapor como señal de listo** — motion específico del sitio: el VAPOR animado (CSS · SVG · canvas) sobre fotos de paella saliendo del fuego es la SEÑAL de "está listo · caliente · servido ahora". Aplicar:
+3. **Frescura · calidad · sabor** — 3 conceptos que deben ESTAR PRESENTES en la experiencia pero NO listados como bullets ni frases nuestras. Deben emerger de las propias palabras de Chef Janet en sus alts (ej: alt foto-X dice algo sobre mariscos · alt foto-Y dice algo sobre el sabor · usa SU lenguaje · NO inventes "ingrediente vivo" o "20 años eligiendo el azafrán"). **Conceptos guía interna · NO copy literal nuestro.**
+
+4. **Vapor como señal de listo** — motion específico del sitio: vapor animado (CSS · SVG · canvas) sobre fotos de paella es la SEÑAL visual de "recién servido · caliente". Aplicar:
    - Hero image/video: vapor sutil animado subiendo (loop infinito · opacidad 0.3-0.6)
    - Cards Servicios: en hover · el vapor se intensifica
-   - Galería capítulo "El Servicio": vapor más denso · sugiere que se acaba de servir
-   - Sección precios: pequeño vapor animado al lado del precio destacado (ancla visual)
+   - Galería capítulo "El Servicio": vapor más denso · sugiere recién servido
+   - Sección precios: pequeño vapor animado al lado del precio destacado (ancla visual sutil)
+   **Motion/visual · NO copy.**
 
-5. **"Caliente y al pie de tu deleite"** — frase ancla para el sitio. Candidatos de uso:
-   - Tagline hero alternativo (junto con "Esto no es solo una Paella")
-   - Cierre de sección "El Servicio" en El Proceso
-   - Subheader de la sección Cotizar ("Caliente · al pie de tu deleite · listo cuando llegamos")
-   - Microfooter ético del Newsletter
+5. **"Caliente y al pie de tu deleite"** — esta frase es VIBRA del Soberano para inspirar el SENTIMIENTO de servicio inmediato/caliente/cuidado. **NO usar literal como tagline · subheader · ni copy del sitio.** La frase guía la sensación que el motion + visuals + voz Chef Janet deben TRANSMITIR. Cualquier copy del sitio sobre el servicio debe salir de la VOZ DE CHEF JANET (alts IG · YouTube) · NO de esta frase Soberana.
+
+**Regla operacional cierre §0bis:** si dudas sobre una palabra del sitio · pregúntate "¿esto lo diría Chef Janet o suena a marketing nuestro?" Si suena nuestro · lee otro alt de las 30 fotos · seguro hay una frase de ella mejor.
 
 ---
 
