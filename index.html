@@ -1683,14 +1683,7 @@ footer {
 <section id="hero" aria-label="Hero - Esto no es solo una Paella">
   <!-- Video background: YouTube reel embed -->
   <div class="hero-video-wrapper" id="heroVideoWrapper">
-    <iframe
-      id="heroYT"
-      src="https://www.youtube.com/embed/Ec8mXOv4i30?autoplay=1&mute=1&loop=1&playlist=Ec8mXOv4i30&controls=0&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1&playsinline=1&enablejsapi=1"
-      title="Chef Janet · Paellas y Más · Show Cooking en vivo"
-      allow="autoplay; encrypted-media"
-      allowfullscreen
-      loading="lazy"
-    ></iframe>
+    <!-- heroYT iframe removed v3.1 · era residual sin uso visible -->
   </div>
   <!-- Fallback: real photo as bg -->
   <div class="hero-video-fallback" id="heroFallback" aria-hidden="true"></div>
@@ -2205,7 +2198,7 @@ footer {
       <p class="section-eyebrow">Instagram · @paellasymas</p>
       <h2 class="section-title" id="ig-title">El feed <em>real</em></h2>
       <div class="divider-gold" style="margin: 1.5rem auto;"></div>
-      <p class="ig-subtitle">Cada foto es una paella que alguien recordará.</p>
+      <p class="ig-subtitle">Cada momento que servimos · capturado al vuelo.</p>
     </div>
     <div class="ig-grid reveal">
       <a href="https://www.instagram.com/paellasymas/" target="_blank" rel="noopener noreferrer" class="ig-grid-item" aria-label="Ver @paellasymas en Instagram">
@@ -2916,13 +2909,7 @@ document.getElementById('mobileMenuClose').addEventListener('click', closeMobile
 // ===== HERO VIDEO FALLBACK =====
 (function() {
   // If YouTube iframe fails to load (e.g., ad blocker), fallback image is already visible
-  const iframe = document.getElementById('heroYT');
-  if (iframe) {
-    iframe.addEventListener('error', () => {
-      iframe.style.display = 'none';
-    });
-  }
-})();
+  // heroYT JS removed v3.1 · iframe eliminated();
 
 
 // ===== HERO CINEMA MODAL =====
