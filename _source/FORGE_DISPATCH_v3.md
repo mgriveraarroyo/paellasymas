@@ -52,26 +52,41 @@ predecessor: v2.1 LIVE (mgriveraarroyo.github.io/paellasymas/ HTTP 200) · QA Ch
 
 ---
 
-### FIX 3 · ALTA · Audio → Video cinematográfico (toque doctrina Soberano)
+### FIX 3 · ALTA · YouTube canal · patrón Richard (anuncia + variedad + CTA directo) · NO bg cinematográfico
 
-**Cita Soberano-verbatim 2026-05-20 4:30 PM:**
-> *"una vez empiezas el audio no tienes forma de darle para atrás · en vez de un audio simple prefiero el video original e incorporarlo cinematográficamente en la página sin que le quite a la experiencia · idea buena ejecución falta más unificación al concepto e invención genuina marcada por FORGE"*
+**Cita Soberano-verbatim 2026-05-20 4:50 PM (ACTUALIZADA · supersede instrucción previa):**
+> *"para el canal de YouTube podemos hacerlo como mismo se lo hicimos en la página de Richard · anuncie el canal y la variedad de videos disponibles y que te lleve directo a verlos si clickeas"*
 
-**Estado v2.1 actual:**
-- iframe[0] YouTube Ec8mXOv4i30 en `#heroYT` · botón "🔇 Silenciar" toggle on-demand
-- Problema: una vez activado el sonido NO hay forma intuitiva de volver atrás · es solo un toggle audio sobre el video que ya está corriendo · NO es experiencia cinematográfica
+> *"una vez empiezas el audio no tienes forma de darle para atrás · en vez de un audio simple prefiero el video original"*
 
-**Cómo resolver:**
-- Eliminar el botón "🔇 Silenciar" aislado (concept audio-only)
-- Integrar el video real YouTube (`Ec8mXOv4i30` "Paella de Mariscos · Al Gusto de Janet") como **hero background video cinematográfico**:
-  - Autoplay · muted · loop · sin controles visibles
-  - Overlay editorial sobre el video (texto hero + sigilo flotante)
-  - Pueden agregar un play button sutil en esquina inferior para "ver con sonido" pero NO botón mute toggle aislado
-  - Si el viewer hace click en el video → abre full-screen modal con sonido · cuando cierra modal vuelve al loop silent en background
-  - Patrón referencia: sitios de chefs 3 estrellas tipo Noma · Mugaritz · Disfrutar (hero video silent · cinematográfico · click para experiencia full con sonido)
-- El video YouTube original es de la chef cocinando real · queda más cinematográfico que un loop CSS de vapor sobre una foto estática
-- Aplicar `pointer-events: none` al iframe en background mode para que el scroll funcione sobre el video sin interferencia
-- Mobile (`pointer:coarse`): fallback a hero foto estática (autoplay video en mobile drena batería · respeto)
+**Estado v2.1 actual a remover:**
+- iframe[0] YouTube Ec8mXOv4i30 en `#heroYT` · botón "🔇 Silenciar" toggle on-demand (concept audio-only · falla UX)
+- iframe[1] YouTube Ec8mXOv4i30 en `#videos` (redundancia · ya está en hero)
+
+**Patrón Richard a replicar (validado · LIVE `mgriveraarroyo.github.io/richard/`):**
+- 1 sección de media con título sobrio (ej: "Escuchar Ahora · Spotify" en Richard)
+- 1 embed funcional limpio (Spotify 152px height en Richard)
+- CTAs externos directos al canal/videos (NO embed pesado del canal entero)
+
+**Cómo resolver para paellasymas (canal YouTube `@algustodejanet`):**
+
+1. **Eliminar:** botón "🔇 Silenciar" del hero · iframe[1] YouTube duplicado en sección Videos · cualquier hero bg video cinematográfico approach Noma/Mugaritz/Disfrutar (Soberano explícito NO esa ruta)
+
+2. **Construir sección "Canal YouTube · Al Gusto de Janet"** (patrón Richard adaptado a vertical chef/educational):
+   - Label sobrio arriba: `CANAL YOUTUBE · AL GUSTO DE JANET` (uppercase spaced · estilo Richard "ESCUCHAR AHORA · SPOTIFY")
+   - 1 párrafo corto anunciando el canal: "196 suscriptores · recetas paso a paso · paellas en vivo · técnicas de cocina"
+   - 1 video destacado embed (puede ser el `Ec8mXOv4i30` "Paella de Mariscos" como anchor)
+   - Card grid (2-4 items) con thumbnails de videos disponibles del canal (título + duración + CTA "Ver en YouTube →" cada uno)
+   - Si no hay metadata de múltiples videos disponible · usar 1 sola card destacada + CTA grande "Ver canal completo en YouTube →"
+
+3. **Hero queda LIMPIO:** foto estática (la mejor de las 30 reales · paella mariscos full-bleed) + tagline + sigilo + scroll prompt · 0 video bg · 0 audio · 0 toggle confuso. La presencia YouTube vive en su propia sección dedicada (como Spotify vive en su sección dedicada en Richard).
+
+4. **CTAs directos al canal real:**
+   - `https://www.youtube.com/@algustodejanet` (canal principal)
+   - URL específica del video destacado si Manus la valida (Ec8mXOv4i30)
+   - Cada CTA abre en `target="_blank"` (nueva pestaña · respeto del scroll del usuario en el sitio paellasymas)
+
+5. **Mobile:** sección YouTube card responsive · embed colapsa a 1 columna · CTAs stack vertical · cero autoplay video pesado
 
 ---
 
