@@ -1798,6 +1798,20 @@ footer {
   }
 }
 
+/* ===== MOBILE FIX 2026-05-21 · QA Chrome detectó overflow 320px (.aroma-tag + .ig-real-tile) ===== */
+@media (max-width: 360px) {
+  .aroma-tag {
+    display: none !important;
+  }
+  .ig-real-grid {
+    grid-template-columns: 1fr !important;
+    gap: 0.75rem !important;
+  }
+  .ig-real-tile {
+    max-width: 100% !important;
+  }
+}
+
 </style>
   <!-- Elfsight Instagram Feed widget platform -->
   <script src="https://static.elfsight.com/platform/platform.js" async></script>
